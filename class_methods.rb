@@ -26,14 +26,23 @@
 ###################################
 
 ## INSTANCE VARIABLES
+  # There's an @ symbol in front of the variable
+  # Use them for scope (able to use them in different methods)
+  # These are usually attributes
+  # Can put these alone (not set to anything) at the top in def initialize
 
 ## INSTANCE METHODS
+  # Behaviors
+    # ex: post, add friend, message
 
-      #INITIALIZE METHOD
-
+#INITIALIZE METHOD
+  # Runs automatically when new instance/object created
 
 ## ATTRIBUTES
+  # Details for each object
+  # Adjectives
 
+# Can use .methods on an object to see what methods you can use on it
 
 # class Order
 #   def initialize(subtotal, quantity) # <= instance method
@@ -62,15 +71,19 @@
 
 #Class methods are called directly by the class and not by an instance of the class.
 
-
-
-
+# class Kitten
+#   def self.say_meow
+#     return "meow" # Use return because we might want to use it later, can also call other methods on it afterwards
+#   end
+# end
+#
+# puts Kitten.say_meow
 
 ###################################
 ######    LETS TRY IT OUT!    #####
 ###################################
 
-
+#
 # class Pawn
 #   attr_reader :position
 #   def initialize(position)
